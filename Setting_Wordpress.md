@@ -289,7 +289,7 @@ server {
 | fastcgi_index index.php                                          | Đặt file mặc định khi truy cập thư mục                                                                                | 
 - Lưu ý: 
 |Biến         | Vai trò                                      |
-|:-----------:|:--------------------------------------------:|
+|:------------|----------------------------------------------|
 |$uri         |	Đường dẫn đã chuẩn hóa, không có query string|
 |$request_uri |	Đường dẫn gốc client gửi, có query string    |
 |$host        |	Tên miền (Server_name) gửi từ trình duyệt    |
