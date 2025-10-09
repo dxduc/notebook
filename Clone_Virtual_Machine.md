@@ -1,28 +1,28 @@
 # **Clone trực tiếp**
 
-- **Chuột phải VM → Clone → Clone to Virtual Machine**
+### **Chuột phải VM → Clone → Clone to Virtual Machine**
 
-![](images_clone_vm/image1.png)
+- ![](images_clone_vm/image1.png)
 
-![](images_clone_vm/image2.png)
+- ![](images_clone_vm/image2.png)
 
-![](images_clone_vm/image3.png)
+- ![](images_clone_vm/image3.png)
 
-![](images_clone_vm/image4.png)
+- ![](images_clone_vm/image4.png)
 
-![](images_clone_vm/image5.png)
+- ![](images_clone_vm/image5.png)
 
-![](images_clone_vm/image6.png)
+- ![](images_clone_vm/image6.png)
 
-![](images_clone_vm/image7.png)
+- ![](images_clone_vm/image7.png)
 
--  **FINISH => Quá trình này sẽ tạo ra một VM giống VM gốc → Khi clone xong, chuột phải VM => ACTIONS => Power => Power On (bật VM)**
+### **FINISH => Quá trình này sẽ tạo ra một VM giống VM gốc → Khi clone xong, chuột phải VM => ACTIONS => Power => Power On (bật VM)**
 
-- **Đăng nhập vào server → Đổi địa chỉ IP Private**
+### **Đăng nhập vào server → Đổi địa chỉ IP Private**
 ```sh
 sudo nano /etc/netplan/50-cloud-init.yaml
 ```
-- **Cập nhật cấu hình, thay đổi `addresses`:**
+### **Cập nhật cấu hình, thay đổi `addresses`:**
 ```conf
 # This file is generated from information provided by the datasource.  Changes
 # to it will not persist across an instance reboot.  To disable cloud-init's
