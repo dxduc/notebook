@@ -274,6 +274,7 @@ server {
 ; }
 ```
 - Nginx hỗ trợ các location chính:
+
 | Loại                                               | Cú pháp                       | Mô tả                                                                       |
 | -------------------------------------------------- | ----------------------------- | --------------------------------------------------------------------------- |
 | **Chính xác (Exact match)**                        | `location = /path { ... }`    | Chỉ khớp chính xác với `/path`. Không có thêm ký tự nào phía sau.           |
@@ -288,6 +289,7 @@ server {
 | fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name | Thiết lập đường dẫn tuyệt đối tới file PHP thực tế trên máy chủ mà PHP-FPM cần chạy                                   |
 | fastcgi_index index.php                                          | Đặt file mặc định khi truy cập thư mục                                                                                | 
 - Lưu ý: 
+
 |Biến         | Vai trò                                      |
 |:------------|----------------------------------------------|
 |$uri         |	Đường dẫn đã chuẩn hóa, không có query string|
