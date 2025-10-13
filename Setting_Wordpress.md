@@ -24,7 +24,7 @@ nginx -v
 ```
 Phiên bản đang sử dụng: <b>nginx/1.18.0</b>
 - Mặc định nginx ban đầu chạy qua port 80
-- - Ubuntu ban đầu thiết lập không sử dụng firewalld mà sử dụng ufw
+- Ubuntu ban đầu thiết lập không sử dụng firewalld mà sử dụng ufw
 - Ban đầu, ufw không được enable nên không cần thiết lập gì thêm
 - Nếu ufw được enable, cần cấu hình cho phép truy cập từ mọi IP
 ```sh
