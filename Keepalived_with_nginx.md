@@ -1,4 +1,5 @@
 # Cài đặt và cấu hình Keepalive với nginx reverse proxy
+![](keepalive_images/keepalived_server.png)
 ## Tổng quan về Keepalive
 - Keepalive là một phần mềm mã nguồn mở trên Linux dùng để:
     - Đảm bảo tính sẵn sàng cao (High Availability) cho dịch vụ
