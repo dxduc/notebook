@@ -1,8 +1,6 @@
 # Install-LEMP-stack-Ubuntu 22.4-Wordpress
 <b><i> Lưu ý: Hệ điều hành Ubuntu 22.4. Sử dụng gói cài đặt APT đã tích hợp những phiên bản phần mềm mới nhất và phù hợp với OS.</i></b>
 
-![](images_setting_wordpress/Nginx-Wordpress.jpg)
-
 ## 1. Cài đặt Nginx:
 ### 1.1 Thêm nameserver
 - Mục đích: Server có thể phân giải được tên miền để có thể tải và cài đặt các service có trong kho của OS

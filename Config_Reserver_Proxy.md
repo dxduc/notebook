@@ -1,6 +1,9 @@
 # Cài đặt và cấu hình Nginx dùng làm proxy và load balancer
 - Hệ điều hành: Ubuntu 22.04.5 LTS
 - Thiết lập mô hình revered proxy trỏ tới 2 server backend wordpress
+
+![](images_setting_wordpress/Nginx-Wordpress.jpg)
+
 ## Chuẩn bị
 - Clone một server wordpress từ server wordpress gốc
 - Trỏ wordpress mới tới DB nằm trên server của wordpress gốc.
