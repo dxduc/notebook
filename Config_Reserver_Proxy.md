@@ -11,7 +11,7 @@
 ```sh
 sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
-- Tìm dòng `bind-address` thay `127.0.0.1` bằng `0.0.0.0`
+- Tìm dòng `bind-address` thay `127.0.0.1` bằng `0.0.0.0` để lắng nghe trên mọi địa chỉ IP của server 
 ```sh
 sudo nano /etc/mysql/mariadb.cnf
 ```
