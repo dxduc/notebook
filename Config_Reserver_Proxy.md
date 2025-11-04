@@ -80,6 +80,15 @@ server {
     }
 }
 ```
+- Khi định tuyến, Nginx gửi các header sau đến backend để đảm bảo thông tin client được truyền chính xác
+```
+X-Forwarded-For: Địa chỉ IP của client.
+X-Real-IP: Địa chỉ IP thực của client.
+Host: Tên miền gốc mà client gửi yêu cầu.
+Connection: Thường là keep-alive để duy trì kết nối.
+$host: Truyền domain name mà người dùng yêu cầu (ví dụ: example.com).
+$scheme: Truyền giao thức gốc (HTTP hoặc HTTPS) mà người dùng sử dụng khi kết nối tới Nginx.
+```
 - Loại bỏ site mặc định để cập nhật site mới. Do mình dùng IP để truy cập vào trình duyệt mà config mặc định đang sử dụng IP làm domain để truy cập.
 ```sh
 sudo unlink /etc/nginx/sites-enabled/default
