@@ -24,4 +24,7 @@ zcat ten_file
 ## Lệnh `tac`
 - Lệnh này in file ngược dòng (từ cuối tới đầu)
 ## Lệnh `more`hiển thị file theo trang, cuộn xuống được
-## Lệnh `less` trình đọc file tương tác mạnh, cuộn lên xuống, tìm kiếm,
+## Lệnh `less` trình đọc file tương tác mạnh, cuộn lên xuống, tìm kiếm
+
+# Lệnh dùng quét văn bản và xử lý văn bản+
+## Lệnh `awk` được dùng để quét và xử lý văn bản—đặc biệt là các tệp dữ liệu có cấu trúc dạng cột
